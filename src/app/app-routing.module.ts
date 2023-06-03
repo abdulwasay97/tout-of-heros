@@ -8,3 +8,9 @@ const routes: Routes = [];
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+// src/app/hero.ts
+
+export interface Hero {
+  id: number;
+  name: string;
+}
